@@ -1,0 +1,31 @@
+button {
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  background-color: #2c3e70; 
+  border: none;
+  border-radius: 6px;
+  color: #fff; 
+  cursor: pointer;
+  opacity: 0.9;
+  flex: 1;
+  font-weight: 600;
+  box-shadow: 0 3px 6px rgba(44, 62, 112, 0.3);
+  transition: background-color 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  opacity: 1;
+  background-color: #1c2a48; 
+  box-shadow: 0 6px 12px rgba(28, 42, 72, 0.5);
+}
+
+#clear-btn {
+  background-color: #7f8c99; 
+  color: #fff; 
+  box-shadow: 0 3px 6px rgba(127, 140, 153, 0.3);
+}
+
+#clear-btn:hover {
+  background-color: #576675; 
+  box-shadow: 0 6px 12px rgba(87, 102, 117, 0.5);
+}

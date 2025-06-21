@@ -1,0 +1,49 @@
+#calc-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #1c2a48; /* azul marinho frio */
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* mais espaçamento limpo */
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #3b4a72; /* tom mais claro do azul marinho */
+  font-size: 0.95rem;
+}
+
+.form-control input {
+  padding: 0.75rem 1rem;
+  border: 1.8px solid #3b4a72;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #1c2a48;
+  background-color: #f0f4fb; /* azul muito claro, quase branco */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control input:focus {
+  outline: none;
+  border-color: #0d1b38;
+  box-shadow: 0 0 8px rgba(13, 27, 56, 0.3);
+  background-color: #e5ecf8;
+}
+
+.action-control {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+  gap: 1rem;
+}
